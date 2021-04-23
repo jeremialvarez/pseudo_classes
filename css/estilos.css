@@ -1,0 +1,546 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: auto;
+}
+nav{
+	background-color: #ff0000;
+	height: 3rem;
+}
+header{
+	background-color: #ffff00;
+	height: 15rem;
+
+}
+/* 1 estilos */
+.cverde{
+	background-color: #00ff00;
+	height: 20rem;
+}
+/* 2 estilos */
+.cceleste{
+	background-color: #00ffff;
+	height: 20rem;
+}
+/* 3 estilos */
+.cazul{
+	background-color: #0000ff;
+	height: 20rem;
+}
+/* 4 estilos */
+.clila{
+	background-color: #ff00ff;
+	height: 20rem;
+}
+/* 5 estilos */
+.cmarron{
+	background-color: #C1272D;
+	height: 20rem;
+}
+/* 6 estilos */
+.cnaranja{
+	background-color: #F7931E;
+	height: 20rem;
+}
+/* 7 estilos */
+.cverde2{
+	background-color: #8CC63F;
+	height: 20rem;
+}
+/* 8 estilos */
+.ccian{
+	background-color: #3FA9F5;
+	height: 20rem;
+}
+/* 9 estilos */
+.cgris{
+	background-color: #95A5A6 ;
+	height: 20rem;
+
+}
+/* 10 estilos */
+.cclaro{
+	background-color: #F9EBEA ;
+	height: 20rem;
+}
+/* 11 estilos */
+/* aca va estilosssssssssssssssssssssssssssssssssssssssssss */
+.cvioleta{
+	background-color: #4A235A ;
+	height: 20rem;
+}
+/* 12 estilos */
+.cnegro{
+	background-color: #1C3233 ;
+	height: 20rem;
+}
+/* 13 estilos */
+.cclaroamarrillo{
+	background-color: #D4F9B2 ;
+	height: 20rem;
+}
+/* 14 estilos */
+.cazulclaro{
+	background-color: #D3E9FA ;
+	height: 20rem;
+}
+/* 15 estilos */
+.crosado{
+	background-color: #E5B3FA ;
+	height: 20rem;
+}
+/* 16 estilos */
+.cazuloscuro{
+	background-color: #061A7B  ;
+	height: 20rem;
+}
+/* 17 estilos */
+.cmarron1{
+	background-color: #7D6608 ;
+	height: 20rem;
+}
+/* 18 estilos */
+ .c18{
+	background-color: #F7F9F9 ;
+	height: 20rem;
+}
+/* 19 estilos */
+.c19{
+	background-color: #45B39D  ;
+	height: 20rem;
+}
+/* 20 estilos */
+.c20{
+	background-color: #F4D03F ;
+	height: 20rem;
+}
+/* 21 estilos */
+.c21{
+	background-color: #A2D9CE;
+	height: 20rem;
+}
+/* 22 estilos */
+.c22{
+	background-color: #B3B6B7 ;
+	height: 20rem;
+}
+/* 23 estilos */
+.c23{
+	background-color: #EC7063 ;
+	height: 20rem;
+}
+/* 24 estilos */
+.c24{
+	background-color: #AF7AC5 ;
+	height: 20rem;
+}
+/* 25 estilos */
+.c25{
+	background-color: #7E5109 ;
+	height: 20rem;
+}
+/* 26 estilos */
+.c26{
+	background-color: #1B2631  ;
+	height: 20rem;
+}
+/* 27 estilos */
+.c27{
+	background-color: #7B7D7D ;
+	height: 20rem;
+}
+/* 28 estilos */
+.c28{
+	background-color: 	#008080 ;
+	height: 20rem;
+}
+/* 29 estilos */
+.c29{
+	background-color: #FDF2E9  ;
+	height: 20rem;
+}
+/* 30 estilos */
+.c30{
+	background-color: #E9F7EF ;
+	height: 20rem;
+}
+/* 31 estilos */
+.c31{
+	background-color:#F5CBA7  ;
+	height: 20rem;
+}
+/* 32 estilos */
+.c32{
+	background-color: 	#FF00FF ;
+	height: 20rem;
+}
+/* 33 estilos */
+.c33{
+	background-color:#F9E79F;
+	height: 20rem;
+}
+/* 34 estilos */
+.c34{
+	background-color:	#008080 ;
+	height: 20rem;
+}
+/* 35 estilos */
+.c35{
+	background-color: 	#808B96  ;
+	height: 20rem;
+}
+/* 36 estilos */
+.c36{
+	background-color: #CDAD53  ;
+	height: 20rem;
+}
+/* 37 estilos */
+.c37{
+	background-color: #C5CD53 ;
+	height: 20rem;
+}
+/* 38 estilos */
+.c38{
+	background-color: #828554  ;
+	height: 20rem;
+}
+/* 39 estilos */
+.c39{
+	background-color: #DABD85 ;
+	height: 20rem;
+}
+
+
+/* aca va las animaciones */
+div.cverde:hover {
+  background-color: #422108;
+  color: white;
+}
+/* aca va las animaciones */
+a:active {
+  color: red;
+}
+/* aca va las animaciones */
+div.cazul:checked {
+  margin-left: 25px;
+  border: 1px solid blue;
+}
+div.cazul:checked {
+  margin: 8px;
+}
+
+/* Etiquetas para entradas marcadas */
+input:checked + label {
+  color: red;
+}
+
+/* Elemento Radio, cuando está marcado */
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px orange;
+}
+
+/* Elemento Checkbox, cuando está marcado */
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+/* Elementos Option, cuando se seleccionan */
+option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}
+/* aca va las animaciones */
+input:default {
+  box-shadow: 0 0 2px 1px black;
+}
+
+input:default + label {
+  color: black;
+}
+/* Elementos Option, cuando se seleccionan */
+:dir(ltr) {
+  background-color: yellow;
+}
+
+:dir(rtl) {
+  background-color: powderblue;
+}
+/* aca va las animaciones */
+
+input[type="text"]:disabled {
+  background: #ccc;
+}
+/* aca va las animaciones */
+.box {
+  background: pink;
+  height: 20px;
+  width: 90px;
+}
+
+.box:empty {
+  background: lime;
+}
+/* aca va las animaciones */
+input:enabled {
+  color: #2b2;
+}
+
+input:disabled {
+  color: #aaa;
+}
+/* aca va las animaciones */
+@page :first {
+  margin-left: 50%;
+  margin-top: 50%;
+}
+
+p {
+  page-break-after: always;
+}
+/* aca va las animaciones */
+p:first-child {
+  color: lime;
+  background-color: black;
+  padding: 5px;
+}
+/* aca va las animaciones */
+h6:first-of-type {
+  color: red;
+  font-style: italic;
+}
+/* aca va las animaciones */
+#fullscreen:fullscreen {
+  padding: 42px;
+  background-color: pink;
+  border:2px solid #f00;
+  font-size: 200%;
+}
+
+#fullscreen:fullscreen > h1 {
+  color: red;
+}
+
+#fullscreen:fullscreen > p {
+  color: darkred;
+}
+
+#fullscreen:fullscreen > button {
+  display: none;
+}
+/* aca va las animaciones */
+.red-input:focus {
+  background: yellow;
+  color: red;
+}
+
+.blue-input:focus {
+  background: yellow;
+  color: blue;
+}
+/* aca va las animaciones */
+input:indeterminate + label {
+  background: lime;
+}
+/* aca va las animaciones */
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid black;
+}
+
+input:in-range {
+  background-color: rgba(0, 255, 0, 0.25);
+}
+
+input:out-of-range {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 2px solid red;
+}
+
+input:in-range + label::after {
+  content: 'bien.';
+}
+
+input:out-of-range + label::after {
+  content: 'fuera de rango!';
+}
+/* aca va las animaciones */
+input:invalid {
+  background-color: #ffdddd;
+}
+
+form:invalid {
+  border: 3px solid #ffdddd;
+}
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+form:valid {
+  border: 3px solid #ddffdd;
+}
+
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
+input:required:invalid {
+  border-color: #C00000;
+}
+/* aca va las animaciones */
+:lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+:lang(fr) > q { quotes: '« ' ' »'; }
+:lang(de) > q { quotes: '»' '«' '\2039' '\203A'; }
+/* aca va las animaciones */
+h5:last-child {
+  color: lime;
+  background-color: black;
+  padding: 5px;
+}
+/* aca va las animaciones */
+h4:last-of-type {
+  color: red;
+  font-style: italic;
+}
+/* aca va las animaciones */
+@page :left {
+  margin: 2in 3in;
+}
+/* aca va las animaciones */
+a:link {
+  background-color: gold;
+  color: green;
+}
+/* aca va las animaciones */
+.fancy {
+  text-shadow: 2px 2px 3px gold;
+}
+
+/* elementos <p> que no están en la clase `.fancy` */
+p:(.fancy) {
+  color: green;
+}
+
+/* Elementos que no son elementos <p> */
+p :not(p) {
+  text-decoration: underline;
+}
+
+/* aca va las animaciones */
+
+span,
+div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.first span:nth-child(2n+1),
+.second span:nth-child(2n+1),
+.third span:nth-of-type(2n+1) {
+  background-color: lime;
+}
+/* aca va las animaciones */
+table {
+  border: 1px solid blue;
+}
+
+/* Selecciona los últimos tres elementos */
+tr:nth-last-child(-n+3) {
+  background-color: pink;
+}
+
+/* Toma todos los elementos a partir del penúltimo elemento */
+tr:nth-last-child(n+2) {
+  color: blue;
+}
+
+/* Seleccione solo el penúltimo elemento */
+tr:nth-last-child(2) {
+  font-weight: 600;
+}
+/* aca va las animaciones */
+
+text {
+  background-color: lime;
+  
+}
+/* aca va las animaciones */
+
+/* Párrafos impares */
+u:nth-of-type(2n+1) {
+  color: red;
+}
+
+/* Párrafos pares */
+u:nth-of-type(2n) {
+  color: blue;
+}
+
+/* Primer párrafo */
+u:nth-of-type(1) {
+  font-weight: bold;
+}
+/* aca va las animaciones */
+i {
+  color: red;
+}
+/* aca va las animaciones */
+input { min-width: 15em; }
+input: { background: cyan; }
+input:read-only { background: cyan; }
+
+s{ background: gray; }
+s{ background: lightgray; }
+s[contenteditable="true"] { color: blue; }
+/* aca va las animaciones */
+@page :right {
+  margin: 2in 3in;
+}
+/* aca va las animaciones */
+.root {
+  background: yellow;
+}
+
+
+p:target {
+  background-color: gold;
+}
+
+/* Agrega un pseudo-elemento dentro del elemento de destino */
+p:target::before {
+  font: 70% sans-serif;
+  content: "►";
+  color: limegreen;
+  margin-right: .25em;
+}
+
+/* Estilo de elementos en cursiva dentro del elemento de destino */
+p:target i {
+  color: red;
+}
+/* Estilo de elementos en cursiva dentro del elemento de destino */
+input:valid {
+  background-color: yellow;
+}
+/* Estilo de elementos en cursiva dentro del elemento de destino */
+a {
+  /* Especifique los valores predeterminados no transparentes a ciertas propiedades,
+     lo que les permite ser diseñado con el estado :visited */
+  background-color: white;
+  border: 1px solid white;
+}
+
+a:visited {
+  background-color: yellow;
+  border-color: hotpink;
+  color: hotpink;
+}
